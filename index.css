@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("images/vegetable-health-food-background-vector-8772581.jpg" );
+    background-repeat: no-repeat;
+    background-size:  cover;
+}
+header,footer{
+    position: absolute;
+    width: 100%;
+    background-color: green;
+    color: white;
+}
+header{
+    height: 10vh;
+}
+footer{
+    height: 20vh;
+    bottom: 0;
+}
+.nav{
+    position: absolute;
+    width: 100%;
+
+}
+figure{
+    position: absolute;
+    left: 35%;
+    top: 90px;
+}
+figcaption{
+    position: absolute;
+    left: 35%;
+    top: 370px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav a{
+    position: relative;
+    left: 75%;
+    top: 20px;
+    color: blue;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.logo{
+    position: absolute;
+    width: 100%;
+}
+.logo a{
+    position: relative;
+    left: 35%;
+    margin-right: 20px;
+    top: 10px;
+    color: yellow;
+ }
+ header h1{
+    position: absolute;
+    bottom: 20px;
+    left: 5%;
+ }
+header h3{
+    position: relative;
+    left: 20%;
+    top: 60px;
+    margin-top: 30px;
+    color: blue;
+}
+footer h1{
+    position: absolute;
+    left: 35%;
+    bottom: 15px;
+}
+footer h2{
+    position: absolute;
+    left: 72%;
+    bottom: 20px;
+}
+footer h3{
+    position: absolute;
+    left: 5%;
+    top: 20px;
+}
